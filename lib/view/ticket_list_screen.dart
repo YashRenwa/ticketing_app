@@ -71,6 +71,25 @@ class TicketListScreen extends StatelessWidget {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
+                      state.tickets.isEmpty
+                          ? SizedBox(
+                              height: 0.8.sh,
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Center(
+                                    child: Text(
+                                      "No Tickets Available",
+                                      style: GoogleFonts.poppins(
+                                        fontSize: 0.04.sw,
+                                        color: Colors.black,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            )
+                          : Container(),
                       ListView.builder(
                         shrinkWrap: true,
                         itemCount: state.tickets.length,
