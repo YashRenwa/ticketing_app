@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "681519722039",
+    "project_id": "ticketing-app-bb9d8",
+    "storage_bucket": "ticketing-app-bb9d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681519722039:android:d48d8db3c38f95468e99b2",
+        "android_client_info": {
+          "package_name": "com.yashrenwa.ticketing_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwTgBbsPa44eE4RPNe06gv7-CmMwlZpYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
